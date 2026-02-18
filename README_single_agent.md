@@ -8,17 +8,6 @@ The work is part of an MSc thesis exploring deep reinforcement learning for auto
 
 ---
 
-## Demo
-
-> *(Video clip of the agent performing lane keeping — recorded during training)*
-
-<!-- Replace the path below with your actual GIF or video link after uploading to GitHub -->
-<!-- ![Agent Demo](assets/demo.gif) -->
-
-📹 A ~30-second clip of the agent executing a smooth lane-keeping maneuver is available in the `assets/` folder.
-
----
-
 ## Key Features
 
 - **Custom Gymnasium environment** wrapping the CARLA simulator
