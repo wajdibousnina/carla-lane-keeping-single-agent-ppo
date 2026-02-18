@@ -30,11 +30,11 @@ The work is part of my MSc thesis exploring deep reinforcement learning for auto
 ## Project Structure
 
 ```
-carla-lane-keeping-ppo-single-agent/
-├── docs\
+carla-lane-keeping-single-agent-ppo/
+├── docs/
 │   ├── requirements.txt
 │   └── setup_instructions.md
-├── main_files\
+├── main_files/
 │   ├── carla_lane_keeping_env.py      # Custom CARLA Gymnasium environment
 │   ├── training_lane_keeping_ppo.py   # PPO training script
 │   └── lane_keeping_parameters.py     # All hyperparameters and configuration
