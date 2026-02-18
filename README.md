@@ -180,7 +180,7 @@ If you use this code in your research, please cite:
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Wajdi Bousnina** - wajdibousnina8@gmail.com
 
