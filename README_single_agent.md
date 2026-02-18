@@ -4,7 +4,7 @@
 
 This project implements a **reinforcement learning agent** that learns to keep a vehicle within its lane in the [CARLA](https://carla.org/) autonomous driving simulator. The agent is trained end-to-end using **PPO (Proximal Policy Optimization)** from [Stable-Baselines3](https://stable-baselines3.readthedocs.io/), with a custom-designed reward function, a stacked-frame visual observation space, and smooth continuous action control.
 
-The work is part of an MSc thesis exploring deep reinforcement learning for autonomous vehicle control.
+The work is part of my MSc thesis exploring deep reinforcement learning for autonomous vehicle control.
 
 ---
 
