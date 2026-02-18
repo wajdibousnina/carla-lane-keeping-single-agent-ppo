@@ -31,11 +31,14 @@ The work is part of my MSc thesis exploring deep reinforcement learning for auto
 
 ```
 carla-lane-keeping-ppo-single-agent/
-│
-├── carla_lane_keeping_env.py      # Custom CARLA Gymnasium environment
-├── training_lane_keeping_ppo.py   # PPO training script
-├── lane_keeping_parameters.py     # All hyperparameters and configuration
-├── assets/                        # Demo videos / plots (add manually)
+├── docs\
+│   ├── requirements.txt
+│   └── setup_instructions.md
+├── main_files\
+│   ├── carla_lane_keeping_env.py      # Custom CARLA Gymnasium environment
+│   ├── training_lane_keeping_ppo.py   # PPO training script
+│   └── lane_keeping_parameters.py     # All hyperparameters and configuration
+├──LICENSE
 └── README.md
 ```
 
