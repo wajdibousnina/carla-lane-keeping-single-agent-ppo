@@ -1,10 +1,6 @@
-# 🚗 CARLA Lane Keeping — Single Agent PPO
+# CARLA Lane Keeping — Single Agent PPO
 
-> **MSc Thesis Project** | Autonomous driving lane-keeping agent trained with Proximal Policy Optimization (PPO) in the CARLA simulator.
-
----
-
-## 📌 Overview
+## Overview
 
 This project implements a **reinforcement learning agent** that learns to keep a vehicle within its lane in the [CARLA](https://carla.org/) autonomous driving simulator. The agent is trained end-to-end using **PPO (Proximal Policy Optimization)** from [Stable-Baselines3](https://stable-baselines3.readthedocs.io/), with a custom-designed reward function, a stacked-frame visual observation space, and smooth continuous action control.
 
@@ -12,7 +8,7 @@ The work is part of an MSc thesis exploring deep reinforcement learning for auto
 
 ---
 
-## 🎬 Demo
+## Demo
 
 > *(Video clip of the agent performing lane keeping — recorded during training)*
 
@@ -23,7 +19,7 @@ The work is part of an MSc thesis exploring deep reinforcement learning for auto
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Custom Gymnasium environment** wrapping the CARLA simulator
 - **PPO** with a multi-layer policy network (256 × 256)
@@ -42,7 +38,7 @@ The work is part of an MSc thesis exploring deep reinforcement learning for auto
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 carla-lane-keeping-ppo-single-agent/
@@ -56,7 +52,7 @@ carla-lane-keeping-ppo-single-agent/
 
 ---
 
-## ⚙️ Environment Details
+## Environment Details
 
 | Parameter | Value |
 |-----------|-------|
@@ -83,7 +79,7 @@ carla-lane-keeping-ppo-single-agent/
 
 ---
 
-## 🧠 PPO Hyperparameters
+## PPO Hyperparameters
 
 | Parameter | Value |
 |-----------|-------|
@@ -100,7 +96,7 @@ carla-lane-keeping-ppo-single-agent/
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Windows 10/11 (CARLA runs natively on Windows)
 - Python 3.7
@@ -118,7 +114,7 @@ pip install tensorboard
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install CARLA
 
@@ -159,7 +155,7 @@ Then open `http://localhost:6006` in your browser.
 
 ---
 
-## 📊 Training Notes
+## Training Notes
 
 - Models are saved every **10,000 timesteps** to the `models/` directory
 - Evaluation runs every **5,000 timesteps** over 5 episodes
@@ -168,7 +164,7 @@ Then open `http://localhost:6006` in your browser.
 
 ---
 
-## 🔗 Related Project
+## Related Project
 
 This is the **single-agent** version of the project. A **multi-agent** extension that trains multiple vehicles simultaneously in the same CARLA world is available here:
 
@@ -176,17 +172,24 @@ This is the **single-agent** version of the project. A **multi-agent** extension
 
 ---
 
-## 📝 Citation / Reference
+## Citation / Reference
 
-If you use or reference this work, please cite it as:
+If you use this code in your research, please cite:
 
-```
-[Your Name] (2025). CARLA Lane Keeping with PPO — Single Agent.
-MSc Thesis Project. GitHub: https://github.com/YOUR_USERNAME/carla-lane-keeping-ppo-single-agent
+```bibtex
+@misc{carla_singleagent_ppo,
+  author = {Wajdi Bousnina},
+  title = {Carla Lane Keeping Single-agent PPO},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/wajdibousnina/carla-lane-keeping-single-agent-ppo/}
+}
 ```
 
 ---
 
-## 📬 Contact
+## 📧 Contact
 
-Feel free to open an issue or reach out if you have questions about the implementation.
+**Wajdi Bousnina** - wajdibousnina8@gmail.com
+
+Project Link: [https://github.com/wajdibousnina/carla-lane-keeping-single-agent-ppo/](https://github.com/wajdibousnina/carla-lane-keeping-single-agent-ppo/)
