@@ -160,7 +160,7 @@ Then open `http://localhost:6006` in your browser.
 
 This is the **single-agent** version of the project. A **multi-agent** extension that trains multiple vehicles simultaneously in the same CARLA world is available here:
 
-👉 [carla-lane-keeping-ppo-multi-agent](https://github.com/YOUR_USERNAME/carla-lane-keeping-ppo-multi-agent)
+👉 [carla-lane-keeping-multi-agent-ppo](https://github.com/wajdibousnina/carla-lane-keeping-multi-agent-ppo)
 
 ---
 
