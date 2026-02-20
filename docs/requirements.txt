@@ -28,4 +28,4 @@ pandas==1.3.5   # For data logging
 
 # CARLA Python API
 # NOTE: CARLA egg file must be added to system path
-# See setup.md for instructions
+# See setup_instructions.md for instructions
