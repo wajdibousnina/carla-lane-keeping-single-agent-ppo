@@ -154,6 +154,8 @@ Then open `http://localhost:6006` in your browser.
 - Early stopping is triggered if no improvement is seen for **20,000 timesteps**
 - Curriculum learning can be enabled via `CurriculumParams.ENABLE_CURRICULUM = True`
 
+For detailed guidance on tuning all parameters, see [instructions.md](docs/setup_instructions.md).
+
 ---
 
 ## Related Project
